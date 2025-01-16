@@ -1,0 +1,2 @@
+execute if entity @e[type=zombie,tag=sam,nbt={HurtTime:10s}] run item replace entity @e[type=zombie,tag=sam,nbt={HurtTime:10s}] armor.head with iron_nugget{CustomModelData:16}
+execute unless entity @e[type=zombie,tag=sam,nbt={HurtTime:10s}] run item replace entity @e[type=zombie,tag=sam] armor.head with iron_nugget{CustomModelData:15}
